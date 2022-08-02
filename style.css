@@ -1,0 +1,164 @@
+html, body {
+  height: 100%;
+  font-family: 'Roboto', Roboto;
+  width:90%;
+  margin: 0 auto;
+}
+
+.navtop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navitem {
+  width: 118px;
+  height: 33px;
+  color: #FF4C4C;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.start {
+  width: 167px;
+  height: 56px; 
+  color: white;
+  background-image: linear-gradient(#FF4C4C, #A94E97);
+  font-weight: bold;
+  border-radius: 28px;
+  border: none;
+  font-size: 18px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bnnr-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bnnr-title {
+  font-size: 40px;
+}
+
+.bnnrp {
+  color: #83869A;
+  font-size: 18px;
+  height: 84px;
+  width: 419px;
+}
+
+.bnnr-img {
+  border-radius: 39px;
+  width: 60%;
+}
+
+.main-section {
+  padding: 150px 0 100px 0;
+}
+
+.courses {
+  display: grid;
+  gap: 119px;
+  grid-template-areas: 
+  "essentials skills gradient"
+  "nutri plantb teensk";
+}
+
+.gradient {
+  background-image: linear-gradient(#FF4C4C, #A94E97);
+  display: grid;
+  grid-area: gradient;
+  width: 350px;
+  height: 322px;
+  align-content: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 5px;
+  border-radius: 16px
+}
+
+.gradient-text {
+  padding: 0 52px;
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+}
+
+.cake {
+ margin: -15px 0 0 32px;  
+}
+
+.text {
+  align-content: center;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.description {
+ color: #83869A;
+}
+
+.link {
+  text-decoration: none;
+  color: #FF4C4C;
+  font-weight: bold;
+}
+
+.essentials {
+  width: 350px;
+  height: 322px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 5px;
+  border-radius: 16px;
+  grid-area: essentials;
+}
+
+.skills {
+  width: 350px;
+  height: 322px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 5px;
+  border-radius: 16px;
+  grid-area: skills;
+}
+
+.nutri {
+  width: 350px;
+  height: 322px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 5px;
+  border-radius: 16px;
+  grid-area: nutri;
+}
+
+.plantb {
+  width: 350px;
+  height: 322px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 5px;
+  border-radius: 16px;
+  grid-area: plantb;
+}
+
+.teensk {
+  width: 350px;
+  height: 322px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 5px;
+  border-radius: 16px;
+  grid-area: teensk;
+}
+
+.footer {
+  color: white;
+  background: #FF4C4C;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 0 10px 32px;
+}
